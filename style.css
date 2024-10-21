@@ -18,22 +18,21 @@ body {
 
 .content {
   background: #e3f4ff;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
   padding: 8px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 24px;
-  padding-right: 24px;
+  /*Padding and margin sizes both can be treated like a list in that they can scale in both directions on one line rather than the four lines I had initially set up*/
+  padding: 8px 24px;
+  display: block;
+  /*margin: 0 auto; was the one thing I couldn't quite figure out as I was overcomplicating it to align the button itself in the center of the text*/
+  margin: 0 auto;
 }
